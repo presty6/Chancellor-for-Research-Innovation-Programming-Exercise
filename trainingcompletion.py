@@ -79,8 +79,6 @@ training_list = ["Electrical Safety for Labs", "X-Ray Safety","Laboratory Safety
 with open("output2.txt",'w') as file:
     json.dump(list_training_completions_in_fiscal_year(data, training_list, fiscal_year), file)
 
-
-
 # 3.
 given_date = "10/01/2024"
 with open("output3.txt",'w') as file:
